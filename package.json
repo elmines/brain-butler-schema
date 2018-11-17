@@ -1,7 +1,7 @@
 {
   "name": "brain-butler-schema",
   "version": "0.0.1",
-  "description": "Type definitions for packets sent to Brain Butler server",
+  "description": "Flow type definitions for packets sent to brain-butler-server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
