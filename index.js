@@ -32,3 +32,4 @@ export type Data = EegPacket | EegEpoch | MotionPacket | MotionEpoch | Orientati
 export type Message = {role: Role, data: Data};
 
 
+export type Command = "rotate" | "brighten";
