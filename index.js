@@ -29,7 +29,7 @@ export type OrientationEpoch = Metadata & {orient: Array<Orientation>};
 export type Role = "eeg" | "gyro" | "acc" | "orient";
 export type Data = EegPacket | EegEpoch | MotionPacket | MotionEpoch | OrientationPacket | OrientationEpoch;
 
-export type Message = {role: Role, data: Data};
+export type Message = {role: Role, body: Data};
 
 
 export type Command = "rotate" | "brighten";
